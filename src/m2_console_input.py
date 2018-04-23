@@ -2,8 +2,8 @@
 This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Jabari-Aman Delemore.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -29,8 +29,10 @@ def double_a_float():
          Enter a number: -3.14
          -6.28
     """
+    pointNum = int(input('Input a point number:'))
+    print(pointNum * 2)
     # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DONE: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
 
@@ -60,8 +62,12 @@ def print_an_integer_many_times():
          10
          10
     """
+    shuri = 7
+    number = int(input('Input a number between 1 and 10:'))
+    for k in range(number):
+        print(shuri)
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
 
@@ -79,8 +85,15 @@ def print_an_integer_many_times_on_one_row():
          Enter an integer: 5
          1010101010
     """
+    tchalla = ''
+    number_of_times = int(input('print how many times?'))
+    for k in range(number_of_times):
+        tchalla = tchalla + '11'
+    print(tchalla)
+
+
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
@@ -119,8 +132,15 @@ def input_it_all():
          Peace & Love.
          Peace & Love.
     """
+    square = float(input('Input a floating point number:'))
+    phrase = str(input('Input a phrase:'))
+    repeat = int(input('the number of times repeated:'))
+    for k in range(repeat):
+        print(square**(1/2))
+    for i in range(repeat):
+        print(phrase)
     # ------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
 
