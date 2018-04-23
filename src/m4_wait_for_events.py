@@ -24,8 +24,8 @@ The WHILE TRUE pattern:
 Ultimately you should be comfortable with both approaches.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Jabari-Aman Delemore.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -90,6 +90,8 @@ def sum_until_prime_input():
          Enter an integer greater than 1: 11
          The sum of the input integers is: 167
     """
+    prime_int = int(input('Input a number >= 2:'))
+    
     # ------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
