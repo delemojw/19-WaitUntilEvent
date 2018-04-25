@@ -91,7 +91,7 @@ def sum_until_prime_input():
          The sum of the input integers is: 167
     """
     prime_int = int(input('Input a number >= 2:'))
-    
+
     # ------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
